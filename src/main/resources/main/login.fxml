@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginFrame" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #34383d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.LogInController">
+   <children>
+      <Label fx:id="loginLabel" layoutX="215.0" layoutY="101.0" text="log in form" textFill="WHITE">
+         <font>
+            <Font name="Consolas" size="41.0" />
+         </font>
+      </Label>
+      <Button fx:id="signUpButton" layoutX="486.0" layoutY="14.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="199.0" style="-fx-background-color: #ffffff;" text="sign up">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="loginField" layoutX="207.0" layoutY="182.0" prefHeight="26.0" prefWidth="264.0" promptText="login">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="207.0" layoutY="238.0" prefHeight="26.0" prefWidth="264.0" promptText="password">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="logInButton" layoutX="239.0" layoutY="306.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="199.0" style="-fx-background-color: #ffffff;" text="log in">
+         <font>
+            <Font name="Consolas" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
